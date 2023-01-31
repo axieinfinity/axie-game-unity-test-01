@@ -1,6 +1,6 @@
 # axie-game-unity-test-01
 
-Using the given source code (typescript), implement a pathfinding algorithm to help the Axie get out of the maze.
+Using the given source code (unity), implement a pathfinding algorithm to help the Axie get out of the maze.
 
 ![Sample map](images/01.png?raw=true "Axie Labyrinth")
 
