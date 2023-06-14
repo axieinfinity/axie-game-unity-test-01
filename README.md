@@ -13,9 +13,9 @@ charming game.
 
 ### Guide our Axie to escape
 
-One of our adorable Mystic Axies is trapped inside a maze, and we must guide it to escape by reaching the **escape point
-**. Unfortunately, the **point** is hidden behind several **gates**, which can only be opened by **keys** of the _same
-colors_.
+One of our adorable Mystic Axies is trapped inside a maze, and we must guide it to escape by reaching the
+**escape point**. Unfortunately, the **point** is hidden behind several **gates**, which can only be opened by **keys**
+of the _same colors_.
 
 So, in short: Grab key(s) --> Open gate(s) --> Escape!
 
@@ -44,7 +44,8 @@ Once per loop (0.25 second) , Axie can only perform at most **one** move action,
   this.moveAxie(0, 1);
 ```
 
-If our Axie steps on any key or gate, it automatically grabs or unlocks. The simulation continues until our axie reaches
+If our Axie steps on any key or gate, it automatically grabs or unlocks (if it has a valid key). The simulation
+continues until our Axie reaches
 the escape point (Gray square).
 
 > Note: Axie can only move in four directions **(-1, 0)**, **(1, 0)**, **(0, -1)** and **(0, 1)**. Do not attempt to use
@@ -52,7 +53,8 @@ the escape point (Gray square).
 
 ### Implementation
 
-Open file `GameMazeManager.cs` located in `Assets/Scripts/GameMaze/GameMazeManager.cs`. Implement your move algorithm in the function `onSimulateTurn()`.
+Open file `GameMazeManager.cs` located in `Assets/Scripts/GameMaze/GameMazeManager.cs`. Implement your move algorithm in
+the function `onSimulateTurn()`.
 
 ```csharp
     //***************YOUR CODE HERE**************************/
@@ -100,7 +102,8 @@ Open file `GameMazeManager.cs` located in `Assets/Scripts/GameMaze/GameMazeManag
 
 - Our Axie should only be moved using provided functions with valid parameters.
 - Your code must be able to solve mazes beyond the sample ones.
-- You are allowed to create new files or functions, but ensure that you do not edit any existing files (except the allowed
+- You are allowed to create new files or functions, but ensure that you do not edit any existing files (except the
+  allowed
   function).
 
 ## Submission
